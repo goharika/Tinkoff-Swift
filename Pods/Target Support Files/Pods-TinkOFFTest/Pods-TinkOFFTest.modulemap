@@ -1,0 +1,6 @@
+framework module Pods_TinkOFFTest {
+  umbrella header "Pods-TinkOFFTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

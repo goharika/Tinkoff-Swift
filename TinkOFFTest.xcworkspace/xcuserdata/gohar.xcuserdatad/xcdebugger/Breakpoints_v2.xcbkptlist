@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.247396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "buyItem(withName:description:amount:recurrent:makeCharge:additionalPaymentData:receiptData:shopsData:shopsReceiptsData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.24762"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "buyItem(withName:description:amount:recurrent:makeCharge:additionalPaymentData:receiptData:shopsData:shopsReceiptsData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.247761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "checkStatusTransaction(_:from:success:error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static TinkOFFTest.PayController.checkStatusTransaction(_: Swift.Optional&lt;Swift.String&gt;, from: Swift.Optional&lt;__C.UIViewController&gt;, success: (__C.ASDKPaymentStatus) -&gt; (), error: (Swift.Optional&lt;__C.ASDKAcquringSdkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TinkOFFTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gohar/Desktop/Learning/TinkOFFTest/TinkOFFTest/PayController.swift"
+                  timestampString = "572529206.2898411"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ASDKPaymentStatus) -&gt; () in static TinkOFFTest.PayController.checkStatusTransaction(_: Swift.Optional&lt;Swift.String&gt;, from: Swift.Optional&lt;__C.UIViewController&gt;, success: (__C.ASDKPaymentStatus) -&gt; (), error: (Swift.Optional&lt;__C.ASDKAcquringSdkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TinkOFFTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gohar/Desktop/Learning/TinkOFFTest/TinkOFFTest/PayController.swift"
+                  timestampString = "572529206.293504"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.247914"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "buyItem(withName:description:amount:recurrent:makeCharge:additionalPaymentData:receiptData:shopsData:shopsReceiptsData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.24804"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "buyItem(withName:description:amount:recurrent:makeCharge:additionalPaymentData:receiptData:shopsData:shopsReceiptsData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.248211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "buyItem(withName:description:amount:recurrent:makeCharge:additionalPaymentData:receiptData:shopsData:shopsReceiptsData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.2483341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "buyItem(withName:description:amount:recurrent:makeCharge:additionalPaymentData:receiptData:shopsData:shopsReceiptsData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.248456"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "buyItem(withName:description:amount:recurrent:makeCharge:additionalPaymentData:receiptData:shopsData:shopsReceiptsData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.248616"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "attachCard(_:additionalData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.248771"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "attachCard(_:additionalData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TinkOFFTest/PayController.swift"
+            timestampString = "572529355.248902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "attachCard(_:additionalData:from:success:cancelled:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

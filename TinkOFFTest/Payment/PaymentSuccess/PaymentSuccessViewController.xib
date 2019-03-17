@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaymentSuccessViewController" customModule="TinkOFFTest" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJ2-An-FgC">
+                    <rect key="frame" x="62.5" y="218.5" width="250" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edj-xk-OT1">
+                            <rect key="frame" x="104" y="50" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" translatesAutoresizingMaskIntoConstraints="NO" id="epm-Na-dZf">
+                            <rect key="frame" x="50" y="91" width="150" height="125"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="epm-Na-dZf" secondAttribute="height" multiplier="1.2" id="GcL-93-GtC"/>
+                                <constraint firstAttribute="width" constant="150" id="ZPI-ID-ps1"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="epm-Na-dZf" firstAttribute="centerX" secondItem="edj-xk-OT1" secondAttribute="centerX" id="0vn-sI-MWo"/>
+                        <constraint firstAttribute="width" constant="250" id="BkB-KD-CaK"/>
+                        <constraint firstItem="edj-xk-OT1" firstAttribute="top" secondItem="LJ2-An-FgC" secondAttribute="top" constant="50" id="oLP-Hj-2o3"/>
+                        <constraint firstItem="edj-xk-OT1" firstAttribute="centerX" secondItem="LJ2-An-FgC" secondAttribute="centerX" id="sT6-Xk-Gua"/>
+                        <constraint firstItem="epm-Na-dZf" firstAttribute="top" secondItem="edj-xk-OT1" secondAttribute="bottom" constant="20" id="sWb-nY-7hf"/>
+                        <constraint firstAttribute="height" constant="250" id="w5x-g6-iK4"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTb-X8-cPr">
+                    <rect key="frame" x="273" y="79" width="39" height="30"/>
+                    <state key="normal" title="Close"/>
+                    <connections>
+                        <action selector="closeButtonAction:" destination="-1" eventType="touchUpInside" id="JMA-jm-xe0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VTb-X8-cPr" secondAttribute="trailing" constant="63" id="9aq-2D-GIs"/>
+                <constraint firstItem="LJ2-An-FgC" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="DLT-Hc-n6V"/>
+                <constraint firstItem="VTb-X8-cPr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="59" id="NGB-yf-XUe"/>
+                <constraint firstItem="LJ2-An-FgC" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="eg2-Bl-mIa"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="checkmark" width="1080" height="1000"/>
+    </resources>
+</document>

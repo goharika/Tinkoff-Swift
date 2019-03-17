@@ -1,0 +1,22 @@
+PODS:
+  - ASDKCore (1.4.0)
+  - ASDKUI (1.4.1):
+    - ASDKCore
+
+DEPENDENCIES:
+  - ASDKCore (from `https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKCore.podspec`)
+  - ASDKUI (from `https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKUI.podspec`)
+
+EXTERNAL SOURCES:
+  ASDKCore:
+    :podspec: https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKCore.podspec
+  ASDKUI:
+    :podspec: https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKUI.podspec
+
+SPEC CHECKSUMS:
+  ASDKCore: 1423d324ba57d5fa4193f3676427169eb06f5ed7
+  ASDKUI: 2b2c9199ee92112ca38e50187ee1572dbdc75c4c
+
+PODFILE CHECKSUM: 1f11ee03ddcec7353d1291bf4b0c42c6c2a15750
+
+COCOAPODS: 1.5.3
